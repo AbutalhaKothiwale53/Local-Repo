@@ -1,3 +1,44 @@
+Configure user account on git
+	- To Configure user name:  git config --global user.name "AbutalhaKothiwale53" 
+	- To Configure user email id:  git config --global user.email "talhakothiwale53@gmail.com"
+	- To Check all configuration: git config --list
+
+Clone
+	• Git clone https://github.com/AbutalhaKothiwale53/GitHubDemo.git
+	• Cd folder name
+
+After clone and Updating the files/ Folder
+Add & commit changes
+Git add .   (To add all files)
+Git commit -m "First commit"
+Git push origin main
+
+Git Status has 4 methods
+	1. Untracked -> new files that git doesn't yet tracked
+	2. Modifies -> changed
+	3. Stages -> file is ready to be committed
+	4. Unmodified -> unchanged 
+
+
+Git Work-Flow
+Add file/ folder from system to github
+	1. Create a new directory
+	2. Git init
+	3. Git add .
+	4. Git commit -m "added files and text"
+	5. Create a new repo in github (Don’t select readme option)
+	6. git remote add origin https://github.com/AbutalhaKothiwale53/Local-Repo.git
+	7. Git remote -v
+	8. Git branch
+	9. Git push -u origin main
+
+Basic Commands
+	1. Clone	Git clone <- some link ->	Cloning a repo on our system
+	Status	Git status	Displays the state of the code
+	Add	Git add <- file name ->	Adds new or changed files in ur working directory to the git staging area
+	Commit	Git commit -m "some msg"	It is the record of changes
+	Push	Git push origin main	Upload local repo content to remote repo
+	
 	2. Add file/ folder from system to github
 	Init	Git init	Used to create a new git repo
 		Git remote add origin <link>	To add the local repo to remote repo
@@ -6,3 +47,36 @@
 		Git branch -M main	To rename branch
 		Git push origin main	To push data into main branch
 		Git push -u origin main	To push data every time into branch
+
+Git Branches
+
+Git branch	To check branch
+Git branch -M main	To rename branch
+Git checkout <branch name>	To navigate a branch
+Git branch -b <branch name>	To create a branch
+Git branch -d -d <branch name>	To delete branch
+
+	1. Git branch
+	2. Git branch -b checkout feature1 (u will automatically moved to feature1 branch)
+To Add data in feature1 branch
+	1. Create a file and text/ data in it
+	2. Git add .
+	3. Git commit -m "text"
+	4. Git push origin feature1 
+
+Merge Code
+Way 1
+Git diff <branch name>	To compare commits, branches, files and more
+Git merge <branch name>	To merge 2 branches
+	- Git merge main (all branches will merge with main branch)
+
+Way 2
+Create a pr(pull request) using github
+It lets you tell others about changes you've pushed to a branch in a repo on github
+
+Pull Command
+	• Git pull origin main
+	Used to fetch and download content from remote repo and immdeiatly update the local repo to match that content
+	
+Merge Conflicts 
+Git merge main (if ur on another branch)
