@@ -1,6 +1,6 @@
 Hello This a github demo for branching and created a new Direcorty for a new local repo
 
-steps
+steps to follow
 Add file/ folder from system to github
 	1. Create a new directory
 	2. Git init
