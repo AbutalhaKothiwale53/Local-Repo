@@ -19,7 +19,6 @@ Git Status has 4 methods
 	3. Stages -> file is ready to be committed
 	4. Unmodified -> unchanged 
 
-
 Git Work-Flow
 Add file/ folder from system to github
 	1. Create a new directory
@@ -34,9 +33,9 @@ Add file/ folder from system to github
 
 Basic Commands
 	1. Clone	Git clone <- some link ->	Cloning a repo on our system
-	Status	Git status	Displays the state of the code
-	Add	Git add <- file name ->	Adds new or changed files in ur working directory to the git staging area
-	Commit	Git commit -m "some msg"	It is the record of changes
+	Status	-> Git status ->	Displays the state of the code
+	Add	Git add <- file name ->  ->	Adds new or changed files in ur working directory to the git staging area
+	Commit	-> Git commit -m "some msg"	-> It is the record of changes
 	Push	Git push origin main	Upload local repo content to remote repo
 	
 	2. Add file/ folder from system to github
