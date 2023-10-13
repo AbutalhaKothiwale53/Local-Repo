@@ -3,4 +3,11 @@ Hello This a github demo for branching and created a new Direcorty for a new loc
 steps
 Add file/ folder from system to github
 	1. Create a new directory
-    2. Git init
+	2. Git init
+	3. Git add .
+	4. Git commit -m "added files and text"
+	5. Create a new repo in github (Don’t select readme option)
+	6. git remote add origin https://github.com/AbutalhaKothiwale53/Local-Repo.git
+	7. Git remote -v
+	8. Git branch
+    9. Git push -u origin main
