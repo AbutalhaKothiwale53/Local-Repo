@@ -1,6 +1,21 @@
-Hello This a github demo for branching and created a new Direcorty for a new local repo
+Clone
+	• Git clone https://github.com/AbutalhaKothiwale53/GitHubDemo.git
+	• Cd folder name
 
-steps
+After clone and Updating the files/ Folder
+Add & commit changes
+Git add .   (To add all files)
+Git commit -m "First commit"
+Git push origin main
+
+Git Status has 4 methods
+	1. Untracked -> new files that git doesn't yet tracked
+	2. Modifies -> changed
+	3. Stages -> file is ready to be committed
+	4. Unmodified -> unchanged 
+
+
+Git Work-Flow
 Add file/ folder from system to github
 	1. Create a new directory
 	2. Git init
@@ -10,4 +25,4 @@ Add file/ folder from system to github
 	6. git remote add origin https://github.com/AbutalhaKothiwale53/Local-Repo.git
 	7. Git remote -v
 	8. Git branch
-    9. Git push -u origin main
+Git push -u origin main
