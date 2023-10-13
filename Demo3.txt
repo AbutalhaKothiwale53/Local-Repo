@@ -1,0 +1,2 @@
+Another file in feature3 branch.
+Added another sentence
